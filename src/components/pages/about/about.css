@@ -1,0 +1,30 @@
+.about{
+    top: 2rem;
+    min-height: 90%;
+    width: 100%;
+    position: relative;
+    margin-top: 3em;
+}
+.aboutContainer{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 80%;
+}
+.aboutImage{
+    object-fit: cover;
+    width: 60%;
+    height: 25vh;   
+}
+.aboutWrapper{  
+    margin: auto 20%;
+}
+.aboutText{
+    padding: 0.1em;
+    display: block;
+    color: grey;       
+    text-align: justify;    
+    font-size: 21px;
+    
+}

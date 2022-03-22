@@ -1,0 +1,47 @@
+.services{
+    top: 4em;
+    height: 90%;
+    width: 100%;
+    position: relative;
+}
+.servicesContainer{
+    height: 100%;
+    width:100%;
+}
+.servicesTitle{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0.8em;
+    margin: auto 30%;
+}
+.servicesImage{
+    object-fit: cover;
+    width: 20%;
+    height: 60%;   
+}
+.servicesWrapper{  
+    display: flex;
+    margin: auto 25%;
+}
+
+.servicesText{
+    padding: 0.1em;
+    display: block;
+    color: lightsalmon;         
+    font-size: 22px;
+    
+}
+.servicesList{
+    margin-top: -5px;
+    list-style: none;
+}
+.servicesListWrapper ul li:before{ 
+    content: '✓';
+    padding-right: 5px;
+    color: orange;
+    font-weight: 600;
+}
+.servicesListItem{
+    padding: 0.3em;
+}
